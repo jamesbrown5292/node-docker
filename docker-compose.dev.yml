@@ -19,7 +19,7 @@ services:
     ports:
       - 27017:27017
     volumes:
-      - mongodb:/data/debug
+      - mongodb:/data/db
       - mongodb_config:/data/configdb
   
   volumes: 
